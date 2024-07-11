@@ -9,11 +9,11 @@ public class DisplayFrame extends JFrame{
 
 	public DisplayFrame(Main m){
 		this.setTitle("Display");
-    	this.setSize(700, 400);
-    	this.setLocationRelativeTo(null);               
-    	this.setVisible(true);
-    	panel=new DisplayPanel(m);
-    	this.setContentPane(panel);
-    	this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    		this.setSize(700, 400);
+    		this.setLocationRelativeTo(null);               
+    		panel=new DisplayPanel(m);
+    		this.setContentPane(panel);
+    		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setVisible(true);
 	}
 }
